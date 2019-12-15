@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TextField } from '@material-ui/core';
 
-function TodoForm({ addTodo }) {
+export default function TodoForm({ addTodo }) {
     const [value, setValue] = useState("");
   
     const handleSubmit = e => {
